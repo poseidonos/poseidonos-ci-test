@@ -1,0 +1,10 @@
+name: setup_monitoring
+
+on:
+  workflow_call:
+
+jobs:
+  deploy_prometheus:
+    steps:
+    - run: |
+      echo ${{secrets.POS_EXPORTER_PORT}} > /etc/output.txt
