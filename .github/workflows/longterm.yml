@@ -2,8 +2,8 @@
 name: M9-LongTerm_VM_Test
 
 on:
-  schedule:
-    - cron: '0 1 * * *'
+  push:
+    branches: [ * ] 
 
   workflow_dispatch:
     inputs:
