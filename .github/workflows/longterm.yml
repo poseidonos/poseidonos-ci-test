@@ -38,6 +38,7 @@ jobs:
     
     - run: |
         sudo chown -R $USER:$USER $GITHUB_WORKSPACE
+        sleep 3600
 
     - uses: actions/checkout@v2
 
