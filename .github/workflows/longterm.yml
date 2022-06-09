@@ -3,7 +3,7 @@ name: M9-LongTerm_VM_Test
 
 on:
   push:
-    branches: [ * ] 
+    branches: [ dshwpark* ] 
 
   workflow_dispatch:
     inputs:
